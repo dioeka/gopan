@@ -1,0 +1,39 @@
+@import url("../Hiragana.css");
+
+body { background: #fffdf6; }
+.hero { background: linear-gradient(135deg, #fff4c9, #fffdf6); border-color: #f2e5b2; }
+.badge, .section-icon, .kana-card b, .example-card span { color: #9b7720; }
+.badge, .section-icon { background: #fff0b8; }
+.kana-card:hover, .example-card:hover { background: #fff8dc; border-color: #dec773; }
+
+.vocab-categories {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	margin-bottom: 20px;
+}
+
+.vocab-category {
+	padding: 9px 14px;
+	border: 1px solid #eadb9f;
+	border-radius: 9px;
+	background: #fffdf6;
+	color: #80691f;
+	font: inherit;
+	font-size: 11px;
+	font-weight: 700;
+	cursor: pointer;
+	transition: .2s;
+}
+
+.vocab-category:hover,
+.vocab-category.active {
+	border-color: #c5a83d;
+	background: #fff0b8;
+	color: #735b0e;
+}
+
+.vocab-category:focus-visible {
+	outline: 2px solid #9b7720;
+	outline-offset: 2px;
+}

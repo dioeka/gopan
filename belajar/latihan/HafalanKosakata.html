@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gopan | Latihan Kosakata</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../sidebar.css"><link rel="stylesheet" href="quiz.css">
+</head>
+<body data-quiz="kosakata">
+    <aside class="sidebar"><div class="logo"><div class="logo-icon">五</div><div><h2>Gopan</h2><span>Japanese Learning</span></div></div><div class="menu-title">MENU</div><nav class="menu"><a href="../dashboard.html" class="menu-item"><span>⌂</span>Dashboard</a><a href="../materi/DashboardMateri.html" class="menu-item"><span>📖</span>Materi</a><a href="DashboardLatihan.html" class="menu-item active"><span>✎</span>Latihan</a><a href="#" class="menu-item"><span>🎯</span>Quiz</a><a href="#" class="menu-item"><span>📊</span>Progress</a></nav><div class="menu-title">LAINNYA</div><nav class="menu"><a href="../pengaturan/pengaturan.html" class="menu-item"><span>⚙</span>Pengaturan</a><a href="#" class="menu-item"><span>❓</span>Bantuan</a></nav><div class="user-card"><div class="avatar">G</div><div class="user-info"><strong>Gopan</strong><small>Pelajar</small></div><span class="dots">•••</span></div></aside><div class="sidebar-overlay"></div>
+    <main class="main"><header class="topbar"><button class="mobile-menu" aria-label="Buka menu">☰</button><div><p class="breadcrumb"><a href="../dashboard.html">Dashboard</a> / <a href="DashboardLatihan.html">Latihan</a> / Kosakata</p><h1>Latihan Kosakata</h1></div><div class="top-right"><div class="avatar">G</div></div></header><section class="content"><div class="quiz-hero"><div><p class="quiz-label">QUIZ INTERAKTIF</p><p id="question-number">Soal 1 / 10</p></div><div class="score-badge" id="score-display">Skor: 0 / 10</div></div><section id="quiz-section" class="quiz-card"><p class="quiz-label">PERTANYAAN</p><h2>Apa arti kosakata ini?</h2><div class="question-char" id="question-char">人</div><div class="choices" id="choices"></div><p class="feedback" id="feedback"></p><button type="button" class="next-button" id="next-button" disabled>Soal Berikutnya →</button></section><section id="result-section" class="result-card" hidden><div class="result-icon">🎯</div><p class="quiz-label">HASIL LATIHAN</p><h2>Latihan selesai!</h2><p class="final-score" id="final-score">0 / 10</p><p class="result-message" id="result-message"></p><div class="result-actions"><a href="DashboardLatihan.html" class="secondary-action">← Kembali</a><button type="button" class="primary-action" id="retry-button">Ulangi Latihan</button></div></section></section></main><script src="../sidebar.js"></script><script src="quiz.js"></script>
+</body>
+</html>

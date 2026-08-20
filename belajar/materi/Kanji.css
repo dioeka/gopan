@@ -1,0 +1,28 @@
+@import url("Hiragana.css");
+
+body {
+    background: #fffaf5;
+}
+
+.hero {
+    background: linear-gradient(135deg, #fff0df, #fffaf5);
+    border-color: #f3dfc8;
+}
+
+.badge,
+.section-icon,
+.kana-card b,
+.example-card span {
+    color: #bd6b2f;
+}
+
+.badge,
+.section-icon {
+    background: #ffead7;
+}
+
+.kana-card:hover,
+.example-card:hover {
+    background: #fff3e8;
+    border-color: #efbd8f;
+}

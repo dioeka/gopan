@@ -1,0 +1,4 @@
+@import url("quiz.css");
+
+/* Keep the standalone stylesheet useful if the exercise page is opened directly. */
+body[data-quiz="hiragana"] .question-char { color: #d94f7d; }
